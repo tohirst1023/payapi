@@ -47,26 +47,65 @@ ul .btn {
 }
 
 /* 2 Sekshon */
-.nmadur .container {
+
+.sponsers {
     background-color: #1B262F;
     color: white;
-    padding: 100px 100px;
-    font-family: Arial, Helvetica, sans-serif;
+    padding: 70px 0;
+}
+
+.sponsers .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.sponsers .right,
+.sponsers .left {
+    width: 48%;
+
+}
+
+.sponsers .left h2 {
+    font-size: 50px;
+
+}
+
+.sponsers .left p {
+    font-size: 25px;
+}
+
+.container .left a {
+    color: wheat;
+    border: white 2px solid;
+    padding: 10px 20px;
+    border-radius: 30px;
+}
+
+.sponsers .right {
+    align-items: center;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-between;
+}
+
+.sponsers .right img {
+    width: 26%;
+}
+
+.container .top {
+    display: flex;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.container .info {
+    padding: 100px;
     font-size: 20px;
-
-
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-.container p {
-    color: #FBFCFE;
-    width: 445px;
-    left: 165px;
-    height: 112px;
+.container .img p {
+    /* text-align: center; */
+    
 
 }
-
-.nmadur .container a {
-    color: white;
-}
-
-
