@@ -104,8 +104,46 @@ ul .btn {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.container .img p {
-    /* text-align: center; */
-    
+.container .start {
+    display: flex;
+    flex-direction: column;
 
+}
+
+.start {
+    width: 20%;
+
+}
+
+footer {
+    background-color: #1B262F;
+    align-items: center;
+}
+
+li a {
+    color: white;
+
+}
+
+.container ul {
+    display: flex;
+
+}
+
+/* .container img {
+    width: 120px;
+    margin-bottom: 50px;
+    align-items: center;
+    display: flex;
+} */
+
+footer .container {
+    display: flex;
+    gap: 50px;
+
+    align-items: center;
+}
+
+.container li {
+    gap: 60px;
 }
