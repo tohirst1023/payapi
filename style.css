@@ -115,14 +115,15 @@ ul .btn {
 
 }
 
+/* footer style */
 footer {
     background-color: #1B262F;
     align-items: center;
 }
 
-li a {
+footer .container a {
     color: white;
-
+    gap: 50px;
 }
 
 .container ul {
